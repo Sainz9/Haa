@@ -17,6 +17,9 @@ class _LoginPageState extends State<LoginPage> {
       ),
       child: Form(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.
+          spaceBetween,
+         
           children: [
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -67,7 +70,16 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 )
               ],
-            )
+            ),
+            SizedBox(
+              width: double.infinity,
+              height: 60,
+              child: ElevatedButton(
+                onPressed: (){},
+            child: Text("Нэвтрэх", style: TextStyle(color: Colors.black),
+            ),
+              ),
+            ),
           ],
         ),
       ),
